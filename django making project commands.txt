@@ -1,11 +1,17 @@
 python -m pip install Django
+#this will install django 
 
 python -m django --version
+#this will check whether the django is installed or not
 
 django-admin startproject mysite
+#this will create your project
 
 cd mysite
+#this will get into your project
 
 python manage.py runserver
+#this will run your project
 
 python manage.py startapp app name
+#this will create an app inside your project
