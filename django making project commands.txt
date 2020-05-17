@@ -1,3 +1,9 @@
+pip install virtualenv
+#this will install virtual environment
+
+python -m venv env
+#this will create virtual environment
+
 python -m pip install Django
 #this will install django 
 
